@@ -1,0 +1,27 @@
+{
+  "name": "smart-expense-splitter-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jallurividya/smart-expense-splitter-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jallurividya/smart-expense-splitter-backend/issues"
+  },
+  "homepage": "https://github.com/jallurividya/smart-expense-splitter-backend#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.103.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
