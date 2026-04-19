@@ -8,6 +8,7 @@ dotenv.config();
 const app = express();
 app.use(cors({
     origin: [
+        "https://smart-expense-splitter-gold-sigma.vercel.app",
         "http://localhost:5173"
     ],
     credentials: true
