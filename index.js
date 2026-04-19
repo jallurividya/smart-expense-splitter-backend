@@ -11,11 +11,16 @@ app.use(cors({
         "https://smart-expense-splitter-gold-sigma.vercel.app",
         "http://localhost:5173"
     ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
 app.use(express.json());
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
+
+app.get("/", (req, res) => {
+  res.send("Backend is running 🚀");
+});
 
 // Groups
 app.post("/groups", async (req, res) => {
