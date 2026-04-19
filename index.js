@@ -11,8 +11,6 @@ app.use(cors({
         "https://smart-expense-splitter-gold-sigma.vercel.app",
         "http://localhost:5173"
     ],
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
 }));
 app.use(express.json());
 
